@@ -7,7 +7,7 @@
   "target_branch": "phase1-release",
   "github_visibility": "private",
   "adapter_storage_platform": "Baidu Netdisk",
-  "adapter_publication_status": "awaiting_upload_method_and_target",
+  "adapter_publication_status": "share_link_provided_download_verification_pending",
   "uploaded_to_github": true,
   "initial_published_commit": "47cb59f3cea471e4b131bdaa824af6a23c4d2911",
   "acceptance": {

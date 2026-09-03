@@ -18,7 +18,7 @@ language:
 
 Built with Qwen.
 
-本文是随适配器发布的说明草稿；实际压缩包和分享链接见主项目 `assets/DOWNLOADS.md`，尚未标为上传完成。适配器包只包含队伍第一阶段训练得到的LoRA增量参数及其处理器、词表和配置，不是独立完整模型，不包含第二阶段统一基座模型。版本：`phase1-20260903-rc1`。
+本适配器包只包含队伍第一阶段训练得到的LoRA增量参数及其处理器、词表和配置，不是独立完整模型，不包含第二阶段统一基座模型。版本：`phase1-20260903-rc1`。打包与文件核验信息见包内 `RELEASE.json`；分享地址以后续公布的主项目 `assets/DOWNLOADS.md` 为准，不因文件已打包就宣称网盘上传完成。
 
 ## 文件内容
 
@@ -28,12 +28,13 @@ Built with Qwen.
 - `SHA256SUMS.txt`：发布文件核验清单。
 - `OFFICIAL_DEPENDENCIES.md`、`official_dependencies_verified.json`：统一系统其他路线依赖的官方版本链接；不含其权重。
 - `LICENSE`、`NOTICE`：上游研究许可及本项目修改说明。
+- `RELEASE.json`：文件大小、SHA256、配置修改说明、权重结构检查和配套代码commit。
 
 不发布训练状态、优化器、数据集、服务器路径、凭据或基座权重。服务器上的原模型未被改写。
 
 ## 下载与使用步骤
 
-1. 从发布方提供的百度网盘分享链接下载指定版本的完整适配器包，核对包哈希后解压到自选目录，例如 `/opt/challenge-assets/general_adapter/`。链接尚未提供时不要使用其他同名文件替代。
+1. 从发布方提供的百度网盘分享链接下载指定版本的完整适配器包，核对包哈希。ZIP已有一层 `general_adapter/`：例如解压到 `/opt/challenge-assets/` 后，权重应直接位于 `/opt/challenge-assets/general_adapter/adapter_model.safetensors`，不要多嵌套一层同名目录。链接尚未提供时不要使用其他同名文件替代。
 2. 根据 `OFFICIAL_DEPENDENCIES.md` 下载匹配的原始非AWQ通用基座，保存到 `general_base/`；不能将本适配器挂到其他模型、其他规模或AWQ版本上。
 3. 在适配器目录执行 `sha256sum -c SHA256SUMS.txt`。主权重SHA256应为：
 
