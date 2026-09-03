@@ -1,0 +1,76 @@
+{
+  "dataset": "VRSBench",
+  "sample_id": "vrsbench_05863_0000_vqa_0",
+  "sample_command": "small_vqa",
+  "original_input": {
+    "image": "Images_val/05863_0000.png",
+    "question": "What is the prominent man-made structure in the image?",
+    "options": null
+  },
+  "reference_answer": "Windmill",
+  "raw_output": "windmill",
+  "normalized_output": "windmill",
+  "comparison": "Correct under case-insensitive exact answer comparison",
+  "replay_request": {
+    "image": "examples/images/1_05863_0000.png",
+    "text": "What is the prominent man-made structure in the image?",
+    "task_type": "vqa"
+  },
+  "historical_evidence_type": "unified_gateway_request",
+  "historical_result": {
+    "request_id": "c7bc0f9f-ea55-44fd-b90f-29de5d37a97b",
+    "status": "succeeded",
+    "answer": "windmill",
+    "raw_answer": "windmill",
+    "task": {
+      "type": "vqa",
+      "subtask": null,
+      "source": "explicit",
+      "confidence": 1.0
+    },
+    "route": {
+      "worker": "qwen",
+      "model": "Qwen2.5-VL-3B-Instruct + Full LoRA",
+      "reason": [
+        "single_image",
+        "max_edge_le_1024"
+      ]
+    },
+    "image_meta": [
+      {
+        "path": "examples/images/1_05863_0000.png",
+        "width": 512,
+        "height": 512,
+        "max_edge": 512,
+        "pixels": 262144,
+        "format": "PNG",
+        "mode": "RGB",
+        "size_bytes": 433975
+      }
+    ],
+    "timing": {
+      "queue_sec": 0.686178,
+      "load_sec": 0.0,
+      "inference_sec": 0.381465,
+      "total_sec": 1.131054
+    },
+    "worker_gpus": [
+      2
+    ],
+    "backend": {},
+    "warnings": []
+  },
+  "annotation_source": "qwen_val_full_meta.jsonl, normalized validation annotation",
+  "image_source": "Original PNG file, unchanged bytes",
+  "expected_worker": "qwen",
+  "gateway_rerun_this_turn": false,
+  "image": {
+    "file": "examples/images/1_05863_0000.png",
+    "width": 512,
+    "height": 512,
+    "format": "PNG",
+    "bytes": 433975,
+    "sha256": "2ff888ce1475e845979551d9be542a259cd9907cc52b528c401cc7261962d060"
+  },
+  "selection_note": "Intentionally selected correct historical cases for qualitative illustration; not an unbiased evaluation or a new GPU run"
+}

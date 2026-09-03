@@ -4,7 +4,7 @@
   "python_major_minor": "3.12",
   "suites": [
     {"suite": "router/tests", "total": 39, "passed": 38, "skipped": 1, "failed": 0},
-    {"suite": "tests", "total": 10, "passed": 9, "skipped": 1, "failed": 0}
+    {"suite": "tests", "total": 14, "passed": 13, "skipped": 1, "failed": 0, "includes_showcase_regression_tests": 4}
   ],
   "skip_reason": "Creating filesystem symlinks is not permitted on this Windows host.",
   "real_gpu_inference_executed": false,

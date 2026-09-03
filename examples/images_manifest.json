@@ -19,5 +19,21 @@
     "height": 256,
     "bytes": 130916,
     "sha256": "96c05a8f1e53b0563e06f0ec08b974a91ecb74bd12951a4d3f434a74013235c6"
+  },
+  {
+    "file": "examples/images/xlrs_000088.jpg",
+    "width": 4096,
+    "height": 4096,
+    "format": "JPEG",
+    "bytes": 1657789,
+    "sha256": "e908d29b10614ede61bdf3438be2ea78b3ecefd9a46192e94515c95e2ce99766"
+  },
+  {
+    "file": "examples/images/mme_color_0043.png",
+    "width": 2098,
+    "height": 2098,
+    "format": "PNG",
+    "bytes": 8296317,
+    "sha256": "ea8f2eb710ab845d411847ce12b52d6047b54b8b27a1afe5ce3692a4c73a607a"
   }
 ]

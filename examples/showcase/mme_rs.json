@@ -1,0 +1,68 @@
+{
+  "dataset": "MME-RealWorld-RS",
+  "sample_id": "perception/remote_sensing/color/0043",
+  "sample_command": "mme_color",
+  "original_input": {
+    "image": "remote_sensing/dota_v2_dota_v2_dota_v2_P10015.png",
+    "question": "What's the color of the rectangular containers in the rectangular ground at the bottom of the picture?",
+    "options": [
+      "(A) White",
+      "(B) Red",
+      "(C) Green",
+      "(D) Yellow",
+      "(E) This image doesn't feature the color."
+    ]
+  },
+  "reference_answer": "B",
+  "reference_answer_text": "(B) Red",
+  "raw_output": "B",
+  "normalized_output": "B",
+  "comparison": "Correct exact letter match",
+  "replay_request": {
+    "image": "examples/images/mme_color_0043.png",
+    "text": "What's the color of the rectangular containers in the rectangular ground at the bottom of the picture?\nThe choices are listed below:\nA. (A) White\nB. (B) Red\nC. (C) Green\nD. (D) Yellow\nE. (E) This image doesn't feature the color.\nSelect the best answer based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option.",
+    "task_type": "color"
+  },
+  "historical_evidence_type": "standalone_detail_route_evaluation",
+  "historical_result": {
+    "question_id": "perception/remote_sensing/color/0043",
+    "source_ordinal": 14,
+    "category": "color",
+    "answer": "B",
+    "image_path": "remote_sensing/dota_v2_dota_v2_dota_v2_P10015.png",
+    "search_image_size": 112,
+    "prediction": "B",
+    "pred_letter": "B",
+    "correct": true,
+    "actual_search_image_size": 112,
+    "seconds": 32.548,
+    "memory_after_cleanup": {
+      "cuda:0": {
+        "allocated_gb": 15.012556076049805,
+        "reserved_gb": 16.154296875,
+        "peak_allocated_gb": 16.366377353668213,
+        "peak_reserved_gb": 17.251953125
+      },
+      "cuda:1": {
+        "allocated_gb": 6.577352523803711,
+        "reserved_gb": 6.900390625,
+        "peak_allocated_gb": 8.093002319335938,
+        "peak_reserved_gb": 8.626953125
+      }
+    }
+  },
+  "prompt_provenance": "Reconstructed using the preserved batch evaluator build_prompt function; prompt text was not logged in prediction row",
+  "annotation_source": "mme_rs_half_zoom_20260818/selected_manifest.jsonl, question_id color/0043; historical prediction in full/predictions.jsonl",
+  "image_source": "Original PNG file, unchanged bytes",
+  "expected_worker": "zoomsearch",
+  "gateway_rerun_this_turn": false,
+  "image": {
+    "file": "examples/images/mme_color_0043.png",
+    "width": 2098,
+    "height": 2098,
+    "format": "PNG",
+    "bytes": 8296317,
+    "sha256": "ea8f2eb710ab845d411847ce12b52d6047b54b8b27a1afe5ce3692a4c73a607a"
+  },
+  "selection_note": "Intentionally selected correct historical cases for qualitative illustration; not an unbiased evaluation or a new GPU run"
+}

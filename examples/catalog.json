@@ -68,5 +68,27 @@
     },
     "expected_worker": "geollava",
     "evidence": "not_run_image_download_required"
+  },
+  {
+    "id": "xlrs_reasoning",
+    "request": {
+      "image": "examples/images/xlrs_000088.jpg",
+      "text": "What do the multiple storage tanks, industrial buildings, and roads in the image indicate?The choices are listed below:\n(A) Reduced efficiency in industrial transportation and logistics\n(B) This area is now a commercial district.\n(C) This area could be a refinery or a chemical plant.\n(D) Urban planners have neglected environmental management.\n\nSelect the best answer for the multiple-choice question based on the image. Only respond with the letter corresponding to the correct answer (A, B, C, D).\nThe answer is:",
+      "task_type": "complex_reasoning"
+    },
+    "expected_worker": "geollava",
+    "evidence": "historical_standalone_evaluation_correct_not_gateway_rerun",
+    "showcase_record": "examples/showcase/xlrs_bench.json"
+  },
+  {
+    "id": "mme_color",
+    "request": {
+      "image": "examples/images/mme_color_0043.png",
+      "text": "What's the color of the rectangular containers in the rectangular ground at the bottom of the picture?\nThe choices are listed below:\nA. (A) White\nB. (B) Red\nC. (C) Green\nD. (D) Yellow\nE. (E) This image doesn't feature the color.\nSelect the best answer based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option.",
+      "task_type": "color"
+    },
+    "expected_worker": "zoomsearch",
+    "evidence": "historical_standalone_evaluation_correct_not_gateway_rerun",
+    "showcase_record": "examples/showcase/mme_rs.json"
   }
 ]

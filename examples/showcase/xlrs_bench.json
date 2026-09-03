@@ -1,0 +1,72 @@
+{
+  "dataset": "XLRS-Bench-lite",
+  "sample_id": 88,
+  "sample_command": "xlrs_reasoning",
+  "original_input": {
+    "image": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4272.png",
+    "question": "What do the multiple storage tanks, industrial buildings, and roads in the image indicate?",
+    "options": [
+      "(A) Reduced efficiency in industrial transportation and logistics",
+      "(B) This area is now a commercial district.",
+      "(C) This area could be a refinery or a chemical plant.",
+      "(D) Urban planners have neglected environmental management."
+    ]
+  },
+  "reference_answer": "C",
+  "reference_answer_text": "(C) This area could be a refinery or a chemical plant.",
+  "raw_output": "C",
+  "normalized_output": "C",
+  "comparison": "Correct exact letter match",
+  "replay_request": {
+    "image": "examples/images/xlrs_000088.jpg",
+    "text": "What do the multiple storage tanks, industrial buildings, and roads in the image indicate?The choices are listed below:\n(A) Reduced efficiency in industrial transportation and logistics\n(B) This area is now a commercial district.\n(C) This area could be a refinery or a chemical plant.\n(D) Urban planners have neglected environmental management.\n\nSelect the best answer for the multiple-choice question based on the image. Only respond with the letter corresponding to the correct answer (A, B, C, D).\nThe answer is:",
+    "task_type": "complex_reasoning"
+  },
+  "historical_evidence_type": "standalone_global_route_evaluation",
+  "historical_result": {
+    "timestamp_utc": "2026-08-04T09:32:16.522138+00:00",
+    "index": 88,
+    "source_index": 88,
+    "category": "Complex reasoning/Anomaly Detection and Interpretation",
+    "l2_category": "default",
+    "task_pair": "Complex reasoning/Anomaly Detection and Interpretation",
+    "answer": "C",
+    "question": "What do the multiple storage tanks, industrial buildings, and roads in the image indicate?",
+    "image_paths": [],
+    "dataset_path": "DOTA_v2_4096_4096/dota_v2_dota_v2_dota_v2_P4272.png",
+    "response": "C",
+    "parsed_answer": "C",
+    "image_metadata": [
+      {
+        "path": null,
+        "source": "hf_arrow",
+        "width": 4096,
+        "height": 4096,
+        "original_mode": "RGB"
+      }
+    ],
+    "prompt_token_count": 139,
+    "generated_token_count": 2,
+    "timing_seconds": {
+      "preprocess": 0.960621,
+      "generation": 1.169216
+    },
+    "correct": true,
+    "error": null
+  },
+  "prompt_provenance": "Reconstructed using the preserved evaluator build_question/build_chat_prompt functions; prompt text was not logged in prediction row",
+  "historical_chat_prompt_reconstructed": "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\nWhat do the multiple storage tanks, industrial buildings, and roads in the image indicate?The choices are listed below:\n(A) Reduced efficiency in industrial transportation and logistics\n(B) This area is now a commercial district.\n(C) This area could be a refinery or a chemical plant.\n(D) Urban planners have neglected environmental management.\n\nSelect the best answer for the multiple-choice question based on the image. Only respond with the letter corresponding to the correct answer (A, B, C, D).\nThe answer is: ASSISTANT:",
+  "annotation_source": "XLRS-Bench-lite-e540ee2 saved Arrow, physical row 88, split key train used for evaluation (not a claim of training usage)",
+  "image_source": "Original JPEG byte stream embedded in Arrow; dataset path ends in .png but stored image format is JPEG; no resizing or re-encoding",
+  "expected_worker": "geollava",
+  "gateway_rerun_this_turn": false,
+  "image": {
+    "file": "examples/images/xlrs_000088.jpg",
+    "width": 4096,
+    "height": 4096,
+    "format": "JPEG",
+    "bytes": 1657789,
+    "sha256": "e908d29b10614ede61bdf3438be2ea78b3ecefd9a46192e94515c95e2ce99766"
+  },
+  "selection_note": "Intentionally selected correct historical cases for qualitative illustration; not an unbiased evaluation or a new GPU run"
+}
