@@ -1,0 +1,137 @@
+[
+  {
+    "file": "router/app/config.py",
+    "source_sha256": "f9cf11e096ee397514db1eb10b35941938b0739e81d1363fce026a954c3fc1c7",
+    "release_sha256": "f9cf11e096ee397514db1eb10b35941938b0739e81d1363fce026a954c3fc1c7",
+    "change": "none"
+  },
+  {
+    "file": "router/app/gpu.py",
+    "source_sha256": "823dbd319cfc7ade2e95bbed38d7f15c89b39cfc17188356fe10efd3ce2f2dcd",
+    "release_sha256": "823dbd319cfc7ade2e95bbed38d7f15c89b39cfc17188356fe10efd3ce2f2dcd",
+    "change": "none"
+  },
+  {
+    "file": "router/app/image_probe.py",
+    "source_sha256": "2719375af897736d0c6cb054c4d4a8f235cab68db3618d17789db1e1219f05e1",
+    "release_sha256": "2719375af897736d0c6cb054c4d4a8f235cab68db3618d17789db1e1219f05e1",
+    "change": "none"
+  },
+  {
+    "file": "router/app/jobs.py",
+    "source_sha256": "5951b05de7473a39e169fff530cdad08593179c8b36a85b55820045e5bf53313",
+    "release_sha256": "5951b05de7473a39e169fff530cdad08593179c8b36a85b55820045e5bf53313",
+    "change": "none"
+  },
+  {
+    "file": "router/app/main.py",
+    "source_sha256": "87f2974bbe789e69f33207ec2fcbe7d1aea00a56a7516baf17d548123aa010c4",
+    "release_sha256": "87f2974bbe789e69f33207ec2fcbe7d1aea00a56a7516baf17d548123aa010c4",
+    "change": "none"
+  },
+  {
+    "file": "router/app/output_parser.py",
+    "source_sha256": "91eb4b8da0d2fd9bb1974ecebc2d5c45754b1a15802110c9e6304391b997853e",
+    "release_sha256": "91eb4b8da0d2fd9bb1974ecebc2d5c45754b1a15802110c9e6304391b997853e",
+    "change": "none"
+  },
+  {
+    "file": "router/app/routing.py",
+    "source_sha256": "0c51bef96b9eb14ef74b6ede98ce59d91c47b76304b99602c378d7e572d6d52d",
+    "release_sha256": "0c51bef96b9eb14ef74b6ede98ce59d91c47b76304b99602c378d7e572d6d52d",
+    "change": "none"
+  },
+  {
+    "file": "router/app/schemas.py",
+    "source_sha256": "31943412ef4cb7d96c2102d787468b0f4c7cd87183026e752ffa9df13f6a6403",
+    "release_sha256": "31943412ef4cb7d96c2102d787468b0f4c7cd87183026e752ffa9df13f6a6403",
+    "change": "none"
+  },
+  {
+    "file": "router/app/task_classifier.py",
+    "source_sha256": "9adad149f2a9493442365ec63b1899170de2d705e201f486ed6a634740256b54",
+    "release_sha256": "9adad149f2a9493442365ec63b1899170de2d705e201f486ed6a634740256b54",
+    "change": "none"
+  },
+  {
+    "file": "router/app/worker_manager.py",
+    "source_sha256": "bb38d20698f882db43e5b545fc00403f0675717fb944a6a65819deb64df5e24d",
+    "release_sha256": "bb38d20698f882db43e5b545fc00403f0675717fb944a6a65819deb64df5e24d",
+    "change": "none"
+  },
+  {
+    "file": "router/app/__init__.py",
+    "source_sha256": "c1b9971c9be5b3d1d77bd3acf90d8ffef28f621d73533cb57fa106b5f6df85c4",
+    "release_sha256": "c1b9971c9be5b3d1d77bd3acf90d8ffef28f621d73533cb57fa106b5f6df85c4",
+    "change": "none"
+  },
+  {
+    "file": "router/workers/common.py",
+    "source_sha256": "0a0583a50e424a8d8d7bb6decb3c58a3d508877c2e74e6315c1f7aefe924592a",
+    "release_sha256": "0a0583a50e424a8d8d7bb6decb3c58a3d508877c2e74e6315c1f7aefe924592a",
+    "change": "none"
+  },
+  {
+    "file": "router/workers/geollava_worker.py",
+    "source_sha256": "63f87b63fc657c6e23a56acd8052a61e078039940ab94fe5b926c767b4bf6270",
+    "release_sha256": "63f87b63fc657c6e23a56acd8052a61e078039940ab94fe5b926c767b4bf6270",
+    "change": "none"
+  },
+  {
+    "file": "router/workers/qwen_worker.py",
+    "source_sha256": "dfc49a347a38c08010a76ef15def5ccbb3464bf941b0a01724c9c20c8a6347c4",
+    "release_sha256": "dfc49a347a38c08010a76ef15def5ccbb3464bf941b0a01724c9c20c8a6347c4",
+    "change": "none"
+  },
+  {
+    "file": "router/workers/zoomsearch_worker.py",
+    "source_sha256": "682aac3ace83023be62bb5c6d371e8411cb6e031f2269ce299c78e7ba34673a4",
+    "release_sha256": "682aac3ace83023be62bb5c6d371e8411cb6e031f2269ce299c78e7ba34673a4",
+    "change": "none"
+  },
+  {
+    "file": "router/workers/__init__.py",
+    "source_sha256": "3ac51c779964f2d8a3ba3f8843f71f4d74737fc8e6a25dde747f6da277a7f518",
+    "release_sha256": "3ac51c779964f2d8a3ba3f8843f71f4d74737fc8e6a25dde747f6da277a7f518",
+    "change": "none"
+  },
+  {
+    "file": "router/tests/test_core.py",
+    "source_sha256": "be3066f821b3827424ec5833db5ff87f832227b4daa0059b937386986b905bc0",
+    "release_sha256": "be3066f821b3827424ec5833db5ff87f832227b4daa0059b937386986b905bc0",
+    "change": "none"
+  },
+  {
+    "file": "integrations/qwen/eval_qwen25vl_full_meta.py",
+    "source_sha256": "aaef3ed93ec31d50819b54b838123fed813a1b057e5c1f5b477d1510d27b1344",
+    "release_sha256": "d612091860c0b66c87fae3f25994edf587d22cc6b29dd9cd8a534638a3048083",
+    "change": "default deployment paths sanitized"
+  },
+  {
+    "file": "integrations/qwen/qwen25vl_utils.py",
+    "source_sha256": "7f45d6ec473d8f8cca544c6d553e7714a32a05c797d56e398faada65bb2eb18a",
+    "release_sha256": "7f45d6ec473d8f8cca544c6d553e7714a32a05c797d56e398faada65bb2eb18a",
+    "change": "none"
+  },
+  {
+    "file": "integrations/qwen/train_qwen25vl_lora.py",
+    "source_sha256": "7fb35337ed11318bd26f68a67883fc64a49075f150028ac1ee87759160f312e7",
+    "release_sha256": "29a6ad040057729bfaf894e182ab0f1856778f54ad7b80d82740651354559e2a",
+    "change": "default deployment paths sanitized"
+  },
+  {
+    "file": "router/requirements-router.txt",
+    "source_sha256": "05bcead18d61c9de3f7b20764953c72623a278a7ca1fbb161e5b9d4535182c9e",
+    "release_sha256": "05bcead18d61c9de3f7b20764953c72623a278a7ca1fbb161e5b9d4535182c9e"
+  },
+  {
+    "file": "router/scripts/replay_datasets.py",
+    "source_sha256": "51610f6e9bcd01ccfdb2e97073141ee5c3c4e9e8b225e617d65fe51d798b5bcb",
+    "release_sha256": "51610f6e9bcd01ccfdb2e97073141ee5c3c4e9e8b225e617d65fe51d798b5bcb"
+  },
+  {
+    "file": "integrations/geollava/xlrs_lite_eval.py",
+    "source_sha256": "075d929fd171a4d90b6ea37454dc0dd65686c62681c703a0bcb2b5d3813ffa43",
+    "release_sha256": "075d929fd171a4d90b6ea37454dc0dd65686c62681c703a0bcb2b5d3813ffa43"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "examples/images/1_05863_0000.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 433975,
+    "sha256": "2ff888ce1475e845979551d9be542a259cd9907cc52b528c401cc7261962d060"
+  },
+  {
+    "file": "examples/images/after.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 111466,
+    "sha256": "17443fba0abccd9c366112fce502490bf843ca1f15d7c898dd13c1ecdfe9cb30"
+  },
+  {
+    "file": "examples/images/before.png",
+    "width": 256,
+    "height": 256,
+    "bytes": 130916,
+    "sha256": "96c05a8f1e53b0563e06f0ec08b974a91ecb74bd12951a4d3f434a74013235c6"
+  }
+]

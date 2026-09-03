@@ -1,0 +1,20 @@
+{
+  "version": "phase1-20260903-rc1",
+  "stage": "first_phase_submission_candidate",
+  "gateway_code_version": "0.1.0",
+  "prepared_date": "2026-09-03",
+  "target_repository": "https://github.com/hahaliu0318-rgb/Challenge_Cup",
+  "target_branch": "phase1-release",
+  "github_visibility": "private",
+  "adapter_storage_platform": "Baidu Netdisk",
+  "adapter_publication_status": "awaiting_upload_method_and_target",
+  "uploaded_to_github": false,
+  "acceptance": {
+    "portable_gateway_cpu_tests": true,
+    "clean_linux_deployment": false,
+    "all_three_routes_real_inference_on_release": false,
+    "final_report_and_application_form": false,
+    "model_and_runtime_download_links_verified": false,
+    "third_party_and_example_redistribution_review": false
+  }
+}

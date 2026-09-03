@@ -1,0 +1,11 @@
+{
+  "python": "3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]",
+  "torch": "2.1.2+cu121",
+  "torchvision": "0.16.2+cu121",
+  "transformers": "4.43.4",
+  "accelerate": "0.34.2",
+  "flash-attn": "2.7.3",
+  "datasets": "5.0.1",
+  "numpy": "1.26.4",
+  "Pillow": "11.0.0"
+}

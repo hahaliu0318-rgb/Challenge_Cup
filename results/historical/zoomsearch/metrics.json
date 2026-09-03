@@ -1,0 +1,66 @@
+{
+  "total": 1297,
+  "valid": 1297,
+  "errors": 0,
+  "correct": 566,
+  "micro_accuracy": 0.4363916730917502,
+  "macro_accuracy": 0.49454968678803146,
+  "categories": {
+    "color": {
+      "correct": 344,
+      "total": 627,
+      "accuracy": 0.5486443381180224
+    },
+    "count": {
+      "correct": 186,
+      "total": 613,
+      "accuracy": 0.3034257748776509
+    },
+    "position": {
+      "correct": 36,
+      "total": 57,
+      "accuracy": 0.631578947368421
+    }
+  },
+  "confusion": {
+    "A->A": 146,
+    "A->B": 44,
+    "A->C": 27,
+    "A->D": 33,
+    "A->E": 14,
+    "B->A": 110,
+    "B->B": 168,
+    "B->C": 41,
+    "B->D": 28,
+    "B->E": 21,
+    "C->A": 93,
+    "C->B": 63,
+    "C->C": 140,
+    "C->D": 38,
+    "C->E": 18,
+    "D->A": 77,
+    "D->B": 68,
+    "D->C": 34,
+    "D->D": 112,
+    "D->E": 16,
+    "E->A": 2,
+    "E->B": 2,
+    "E->C": 2
+  },
+  "memory_peaks": {
+    "cuda:0": {
+      "peak_allocated_gb": 19.154085636138916,
+      "peak_reserved_gb": 23.119140625
+    },
+    "cuda:1": {
+      "peak_allocated_gb": 8.533812046051025,
+      "peak_reserved_gb": 9.15234375
+    }
+  },
+  "latency": {
+    "mean_sec": 38.23392906707785,
+    "median_sec": 36.91,
+    "p95_sec": 54.542,
+    "total_sec": 49589.40599999997
+  }
+}

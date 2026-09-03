@@ -1,0 +1,12 @@
+{
+  "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+  "torch": "2.6.0+cu124",
+  "torchvision": "0.21.0+cu124",
+  "transformers": "5.12.1",
+  "accelerate": "1.14.0",
+  "peft": "0.19.1",
+  "qwen-vl-utils": "0.0.14",
+  "numpy": "2.2.6",
+  "Pillow": "12.2.0",
+  "bitsandbytes": "0.49.2"
+}

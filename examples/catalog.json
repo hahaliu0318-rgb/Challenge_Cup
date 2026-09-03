@@ -1,0 +1,72 @@
+[
+  {
+    "id": "small_vqa",
+    "request": {
+      "image": "examples/images/1_05863_0000.png",
+      "text": "What is the prominent man-made structure in the image?",
+      "task_type": "vqa"
+    },
+    "expected_worker": "qwen",
+    "evidence": "historical_success",
+    "reference_outputs": [
+      "examples/reference_outputs/small_vqa_cold.json",
+      "examples/reference_outputs/small_vqa_warm.json"
+    ]
+  },
+  {
+    "id": "small_caption",
+    "request": {
+      "image": "examples/images/1_05863_0000.png",
+      "text": "Describe this remote-sensing image.",
+      "task_type": "caption"
+    },
+    "expected_worker": "qwen",
+    "evidence": "not_run"
+  },
+  {
+    "id": "small_grounding",
+    "request": {
+      "image": "examples/images/1_05863_0000.png",
+      "text": "Locate the windmill and return its bounding box.",
+      "task_type": "grounding"
+    },
+    "expected_worker": "qwen",
+    "evidence": "not_run"
+  },
+  {
+    "id": "change_pair",
+    "request": {
+      "image": [
+        "examples/images/before.png",
+        "examples/images/after.png"
+      ],
+      "text": "Compare the two images and describe the changes.",
+      "task_type": null
+    },
+    "expected_worker": "qwen",
+    "evidence": "not_run"
+  },
+  {
+    "id": "large_detail",
+    "request": {
+      "image": "runtime/examples/03553_Toronto.png",
+      "text": "What color is the roof of the square building in the lower right area of the picture?\nThe choices are listed below:\nA. (A) Yellow\nB. (B) Blue\nC. (C) Gray\nD. (D) White\nE. (E) The image does not feature the color.\nSelect the best answer based on the image. Respond with only the letter (A, B, C, D, or E) of the correct option.",
+      "task_type": "color"
+    },
+    "expected_worker": "zoomsearch",
+    "evidence": "historical_success_image_download_required",
+    "reference_outputs": [
+      "examples/reference_outputs/large_detail.json"
+    ]
+  },
+  {
+    "id": "large_caption",
+    "request": {
+      "image": "runtime/examples/03553_Toronto.png",
+      "text": "Describe this remote-sensing image in detail.",
+      "task_type": "caption"
+    },
+    "expected_worker": "geollava",
+    "evidence": "not_run_image_download_required"
+  }
+]

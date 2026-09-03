@@ -1,0 +1,29 @@
+{
+  "scope": "locally recomputed from collected historical predictions; not new inference",
+  "rows": 1297,
+  "unique_question_ids": 1297,
+  "correct": 566,
+  "micro_accuracy": 0.4363916730917502,
+  "macro_accuracy": 0.4945496867880314,
+  "by_category": {
+    "color": {
+      "total": 627,
+      "correct": 344,
+      "accuracy": 0.5486443381180224
+    },
+    "count": {
+      "total": 613,
+      "correct": 186,
+      "accuracy": 0.3034257748776509
+    },
+    "position": {
+      "total": 57,
+      "correct": 36,
+      "accuracy": 0.631578947368421
+    }
+  },
+  "mean_seconds": 38.233929067077874,
+  "metrics_match": true,
+  "source_predictions_sha256": "5b780238da417c989bdc50c7a93e9eed9a169b73b535f148d3385d1b9545b017",
+  "verified_date": "2026-09-03"
+}

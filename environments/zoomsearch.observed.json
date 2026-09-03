@@ -1,0 +1,9 @@
+{
+  "python": "3.10.13 | packaged by conda-forge | (main, Dec 23 2023, 15:36:39) [GCC 12.3.0]",
+  "torch": "2.1.2+cu118",
+  "torchvision": "0.16.2+cu118",
+  "transformers": "4.49.0",
+  "accelerate": "0.34.2",
+  "numpy": "1.26.4",
+  "Pillow": "10.4.0"
+}

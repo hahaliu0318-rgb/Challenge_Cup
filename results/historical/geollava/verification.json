@@ -1,0 +1,86 @@
+{
+  "status": "verified",
+  "scoring_reference": "lmms-eval v0.3.5 lmms_eval/tasks/xlrs/mcq_utils.py",
+  "scoring_rule": "set(parsed_answer) == set(reference_answer)",
+  "prediction_count": 3080,
+  "unique_index_count": 3080,
+  "correct_count": 1340,
+  "micro_accuracy": 0.43506493506493504,
+  "official_macro_accuracy": 0.5154358974358975,
+  "official_task_pair_count": 13,
+  "parse_failure_count": 2,
+  "inference_error_count": 0,
+  "per_task_pair": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "count": 100,
+      "correct": 68,
+      "accuracy": 0.68
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "count": 100,
+      "correct": 77,
+      "accuracy": 0.77
+    },
+    "Complex reasoning/Route planning": {
+      "count": 100,
+      "correct": 65,
+      "accuracy": 0.65
+    },
+    "Counting/Counting with changing detection": {
+      "count": 60,
+      "correct": 31,
+      "accuracy": 0.5166666666666667
+    },
+    "Counting/Counting with complex reasoning": {
+      "count": 100,
+      "correct": 50,
+      "accuracy": 0.5
+    },
+    "Counting/Overall counting": {
+      "count": 60,
+      "correct": 15,
+      "accuracy": 0.25
+    },
+    "Counting/Regional counting": {
+      "count": 100,
+      "correct": 41,
+      "accuracy": 0.41
+    },
+    "Land use classification/Overall Land use classification": {
+      "count": 100,
+      "correct": 51,
+      "accuracy": 0.51
+    },
+    "Land use classification/Regional Land use classification": {
+      "count": 200,
+      "correct": 134,
+      "accuracy": 0.67
+    },
+    "Object properties/Object classification": {
+      "count": 800,
+      "correct": 337,
+      "accuracy": 0.42125
+    },
+    "Object properties/Object color": {
+      "count": 800,
+      "correct": 255,
+      "accuracy": 0.31875
+    },
+    "Object properties/Object motion state": {
+      "count": 60,
+      "correct": 39,
+      "accuracy": 0.65
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "count": 500,
+      "correct": 177,
+      "accuracy": 0.354
+    }
+  },
+  "timestamp_utc": "2026-08-04T16:50:05.358714+00:00",
+  "dataset_revision": "e540ee2aa745ce9a83784ae76541ddb7f79f03ac",
+  "dataset_file_count": 79,
+  "dataset_total_bytes": 38188988127,
+  "dataset_kind": "hf_disk",
+  "model": "initiacms/GeoLLaVA-8K"
+}

@@ -1,0 +1,11 @@
+Built with Qwen.
+
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) Alibaba Cloud. All Rights Reserved.
+
+Project modification notice:
+This release contains project-trained LoRA adapter parameters for Qwen/Qwen2.5-VL-3B-Instruct.
+The publication copy of adapter_config.json changes base_model_name_or_path from a training-relative path to the official repository identifier.
+The adapter_model.safetensors weight bytes are unchanged. Base weights, datasets and training state are not redistributed here.
+The original server model and configuration have not been modified.
+
+Release: phase1-20260903-rc1

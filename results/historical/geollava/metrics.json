@@ -1,0 +1,133 @@
+{
+  "metric_scope": "XLRS-Bench-lite full-snapshot smoke subset",
+  "scoring_rule": "set(parsed_answer) == set(reference_answer)",
+  "prediction_count": 3080,
+  "expected_prediction_count": 3080,
+  "correct_count": 1340,
+  "micro_accuracy": 0.43506493506493504,
+  "observed_task_macro_accuracy": 0.5154358974358975,
+  "observed_task_pair_count": 13,
+  "official_task_pair_count": 13,
+  "official_full_macro_available": false,
+  "official_full_macro_accuracy": null,
+  "coverage_complete": true,
+  "parse_failure_count": 2,
+  "inference_error_count": 0,
+  "per_l1_category": {
+    "Complex reasoning": {
+      "count": 300,
+      "correct": 210,
+      "accuracy": 0.7
+    },
+    "Counting": {
+      "count": 320,
+      "correct": 137,
+      "accuracy": 0.428125
+    },
+    "Land use classification": {
+      "count": 300,
+      "correct": 185,
+      "accuracy": 0.6166666666666667
+    },
+    "Object properties": {
+      "count": 1660,
+      "correct": 631,
+      "accuracy": 0.38012048192771086
+    },
+    "Object spatial relationship": {
+      "count": 500,
+      "correct": 177,
+      "accuracy": 0.354
+    }
+  },
+  "per_task_pair": {
+    "Complex reasoning/Anomaly Detection and Interpretation": {
+      "count": 100,
+      "correct": 68,
+      "accuracy": 0.68
+    },
+    "Complex reasoning/Environmental condition reasoning": {
+      "count": 100,
+      "correct": 77,
+      "accuracy": 0.77
+    },
+    "Complex reasoning/Route planning": {
+      "count": 100,
+      "correct": 65,
+      "accuracy": 0.65
+    },
+    "Counting/Counting with changing detection": {
+      "count": 60,
+      "correct": 31,
+      "accuracy": 0.5166666666666667
+    },
+    "Counting/Counting with complex reasoning": {
+      "count": 100,
+      "correct": 50,
+      "accuracy": 0.5
+    },
+    "Counting/Overall counting": {
+      "count": 60,
+      "correct": 15,
+      "accuracy": 0.25
+    },
+    "Counting/Regional counting": {
+      "count": 100,
+      "correct": 41,
+      "accuracy": 0.41
+    },
+    "Land use classification/Overall Land use classification": {
+      "count": 100,
+      "correct": 51,
+      "accuracy": 0.51
+    },
+    "Land use classification/Regional Land use classification": {
+      "count": 200,
+      "correct": 134,
+      "accuracy": 0.67
+    },
+    "Object properties/Object classification": {
+      "count": 800,
+      "correct": 337,
+      "accuracy": 0.42125
+    },
+    "Object properties/Object color": {
+      "count": 800,
+      "correct": 255,
+      "accuracy": 0.31875
+    },
+    "Object properties/Object motion state": {
+      "count": 60,
+      "correct": 39,
+      "accuracy": 0.65
+    },
+    "Object spatial relationship/Object spatial relationship": {
+      "count": 500,
+      "correct": 177,
+      "accuracy": 0.354
+    }
+  },
+  "timing_seconds": {
+    "generation_sum": 9966.251703,
+    "generation_mean": 3.235796
+  },
+  "wall_seconds_this_invocation": 25209.153386,
+  "gpu_memory_mib": [
+    {
+      "logical_device": 0,
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "allocated": 8264.9,
+      "reserved": 21000.0,
+      "peak_allocated": 13679.0,
+      "peak_reserved": 21000.0
+    },
+    {
+      "logical_device": 1,
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "allocated": 9990.9,
+      "reserved": 19772.0,
+      "peak_allocated": 17374.4,
+      "peak_reserved": 19772.0
+    }
+  ]
+}
